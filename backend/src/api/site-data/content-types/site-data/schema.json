@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_datas",
+  "info": {
+    "singularName": "site-data",
+    "pluralName": "site-datas",
+    "displayName": "Site Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
