@@ -12,6 +12,11 @@ module. exports = ({ env }) => ({
             uploadStream: {}, 
             delete: {},
         },
-        },    
     },
+  },
+  'users-permissions': {
+    config: {
+      jwtSecret: env('JWT_SECRET'),
+    },
+  },
 });
