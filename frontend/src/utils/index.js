@@ -1,0 +1,1 @@
+export const ALL_PRODUCTS_URL = 'https://mtm6407-products-bqhk.onrender.com/api/products?populate=*'
